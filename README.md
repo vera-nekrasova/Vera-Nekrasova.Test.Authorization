@@ -1,6 +1,9 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The server imitation was implemented with [Json-server](https://github.com/typicode/json-server).
+
+## Run command `npm start` and `npm server` in different terminal to run the app in the development mode
 
 ## Available Scripts
 
