@@ -79,8 +79,8 @@ You will also see any lint errors in the console.
 
 ### `npm server`
 
-Runs the database in the development mode.\
-Open in new terminal [http://localhost:8000/users](http://localhost:8000/users) to view it in the browser.
+Runs the database in the development mode. Should be run in differ terminal.\
+Open [http://localhost:8000/users](http://localhost:8000/users) to view it in the browser.
 
 You will also see any lint errors in the console.
 
