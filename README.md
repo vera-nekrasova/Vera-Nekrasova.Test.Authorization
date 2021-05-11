@@ -5,6 +5,66 @@ The server imitation was implemented with [Json-server](https://github.com/typic
 
 ## Run command `npm start` and `npm server` in different terminal to run the app in the development mode
 
+## The project structure:
+ ```
+│   .eslintcache
+│   .gitignore
+│   package-lock.json
+│   package.json
+│   README.md
+│   tsconfig.json
+│
+├───build
+│   │   asset-manifest.json
+│   │   favicon.ico
+│   │   index.html
+│   │   logo192.png
+│   │   logo512.png
+│   │   manifest.json
+│   │   robots.txt
+│   │
+│   └───static
+│       └───js
+│           2.2e216e1f.chunk.js
+│           2.2e216e1f.chunk.js.LICENSE.txt
+│           2.2e216e1f.chunk.js.map
+│           main.0f3877e5.chunk.js
+│           main.0f3877e5.chunk.js.map
+│           runtime-main.570c4974.js
+│           runtime-main.570c4974.js.map
+│
+├───data
+│       db.json
+│
+├───public
+│       favicon.ico
+│       index.html
+│       logo192.png
+│       logo512.png
+│       manifest.json
+│       robots.txt
+│
+└───src
+    │   index.tsx
+    │   react-app-env.d.ts
+    │
+    ├───App
+    │       app.tsx
+    │
+    ├───components
+    │   │   account.tsx
+    │   │   form.tsx
+    │   │   header.tsx
+    │   │   main.tsx
+    │   │
+    │   └───components_form
+    │           input.tsx
+    │           warningBlock.tsx
+    │
+    └───styled-components
+            colors.js
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
